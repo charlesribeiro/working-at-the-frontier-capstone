@@ -1,0 +1,33 @@
+# Local working and backup artifacts
+00-README.md
+FINAL-SUBMISSION.pre-trim.md
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Hermes/session artifacts
+.hermes/
+
+# Credentials and local environment
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Caches
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
